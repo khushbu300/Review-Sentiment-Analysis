@@ -3,5 +3,4 @@ numpy
 pandas
 sklearn
 nltk
-string
 gunicorn
