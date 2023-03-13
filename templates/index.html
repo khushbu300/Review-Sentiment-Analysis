@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+</head>
+<body bgcolor=#d4a3ae>
+    <center>
+    <h1>Sentiment Analysis</h1> 
+    <form action="/book1" method='POST'>
+        <label for ="Review">Review:</label><br>
+        <input name='user_input' type="text" class ="form-control"><br>
+        <br>
+        <input type="submit" value="Predict the Sentiment">
+    </form>
+    <h2>
+       {{result}}
+    </h2>
+    </center>
+</body>
+</html>
+
